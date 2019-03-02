@@ -26,4 +26,5 @@ Simply download the whole `PSColorizedLogOutput` folder to `C:\Users\<username>\
 
 ### Example 3 - you want only see parts of the logfile that represents specific loglevel?
 `#In this example only the LogLevels WARN and ERROR are written to host. Other Levels will not be shown`
+
 `Get-Content C:\wildfly-10.1.0.Final\standalone\log\server.log | Write-HostWithColorizedLogLevels -ShowOnly WARN, ERROR`
