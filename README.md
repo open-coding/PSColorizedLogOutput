@@ -1,4 +1,5 @@
-# PSColorizedLogOutput - a PowerShell module for colorized log output
+# PSColorizedLogOutput
+## A PowerShell module for colorized log output
 
 This PowerShell module provides the cmdlet `Write-HostWithColorizedLogLevels` that colorizes e.g. the output of a logfile according the several loglevels. It can easily be combined with [PSGetWebContent](https://github.com/open-coding/PSGetWebContent). It reads a string and writes it to host with the color of the detected LogLevel as the foreground color. All the `AlternativeNames` of a `LogLevel` will be used to analyse a line. 
 
